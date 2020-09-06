@@ -5,7 +5,7 @@ const TotoItemList = (props) => {
    return(
        <div className="row">
            {todoList.map((item) =>(
-               <div className="col-md-6 offset-md-3 col-sm-12 mb-4" key={item.id}>
+               <div className="col-md-6 offset-md-3 col-sm-12 mb-4 animate__animated animate__fadeInDown" key={item.id}>
                    <div className="p-3 todoList-bg">
                        <div className="row">
                          <div className="col-10">
