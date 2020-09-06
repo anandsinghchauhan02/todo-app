@@ -1,0 +1,23 @@
+.todoInputList{
+    width: 100%;
+    border: 0;
+    background: #00BCD4;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+}
+.todoInputList:focus{
+   border: 0;
+   outline: none;
+}
+
+.todoList-bg{
+    background: #00BCD4;
+    box-shadow: 0px 0px 2px 0px #bdb3b3;
+    border-radius: 4px;
+}
+
+.delete-button{
+    font-size: 20px;
+    color: #F44336;
+}
